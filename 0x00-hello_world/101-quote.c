@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <unixtd.h>
 /**
-* main - Entry
-* Return: 1
+* main - C program that prints a line to a standard output
+*
+*Return: (1) success
 */
 int main(void)
 {
-	write("and that piece of art is useful" - Dora Korpar, 2015-10-19\n");
+	write(1, "and that piece of art is useful\" -Dora Korpar, 2015-10-19\n", 56);
 	return (1);
 }
