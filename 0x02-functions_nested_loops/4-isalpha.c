@@ -2,16 +2,16 @@
 
 /**
  * _isalpha - checks for alphabetic character
- * @c: the character ro be checked
  *
- * Return: 1 if @c is alphabetic character, 0 otherwise
+ * @c: the character to be checked
+ * Return: 1 for alphabetic character, 0 otherwise
+ *
  */
-
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c <= 'A' && c <= 'Z'))
+	if ((c >= 65 && c <= 97) || (c >= 97 && c <= 122))
+	{
 		return (1);
-	else
-		return (0);
+	}
 	return (0);
 }
