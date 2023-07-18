@@ -1,14 +1,6 @@
-#include <stdio.h>
-/**
- * main - entry point in the program
- *
- * It uses the predefined macro __FILE__  to retrieve the file
- * Return: 0 success
- *
- */
+#ifndef PI_H
+#define PI_H
 
-int main(void)
-{
-printf("Compiled from file: %s\n", __FILE__);
-return (0);
-}
+#define PI 3.14159265359
+
+#endif
