@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * add_nodient_end - adds a new node at the end of the list
+ * add_nodeint_end - adds a new node at the end of the list
  * @head: pointer to the head
  * @n: integer node
  * Return: address on success, else NULL
